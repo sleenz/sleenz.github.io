@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio - Research, Projects, and Professional Experience">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">Your Name</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#papers" class="nav-link">Publications</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm <span class="highlight">Your Name</span></h1>
+            <p class="hero-subtitle">Researcher | Developer | [Your Specialty]</p>
+            <p class="hero-description">
+                Passionate about [your field of expertise] with a focus on [specific areas]
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://scholar.google.com/citations?user=yourid" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="mailto:your.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/profile.jpg" alt="Your Name" onerror="this.src='https://via.placeholder.com/400x400?text=Your+Photo'">
+                </div>
+                <div class="about-text">
+                    <h3>Welcome to my portfolio</h3>
+                    <p>
+                        I am a [your role/position] specializing in [your specialty]. With a strong background in
+                        [your field], I focus on [specific areas of expertise].
+                    </p>
+                    <p>
+                        My research interests include [research area 1], [research area 2], and [research area 3].
+                        I'm passionate about applying cutting-edge techniques to solve real-world problems.
+                    </p>
+
+                    <h4>Skills & Expertise</h4>
+                    <div class="skills">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <!-- Add or modify skills as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A selection of my recent work and contributions</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="Project 1" onerror="this.src='https://via.placeholder.com/600x400?text=Project+1'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title 1</h3>
+                        <p>Brief description of what this project is about and the technologies used.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project1" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" target="_blank" class="btn-small">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="Project 2" onerror="this.src='https://via.placeholder.com/600x400?text=Project+2'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title 2</h3>
+                        <p>Brief description of what this project is about and the technologies used.</p>
+                        <div class="project-tags">
+                            <span>Deep Learning</span>
+                            <span>PyTorch</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" target="_blank" class="btn-small">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Project 3" onerror="this.src='https://via.placeholder.com/600x400?text=Project+3'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title 3</h3>
+                        <p>Brief description of what this project is about and the technologies used.</p>
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>Transformers</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project3" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" target="_blank" class="btn-small">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="papers" class="papers">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <p class="section-subtitle">Research papers and academic contributions</p>
+
+            <div class="papers-list">
+                <!-- Paper 1 -->
+                <div class="paper-card">
+                    <div class="paper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="paper-content">
+                        <h3>Paper Title: A Comprehensive Study on [Topic]</h3>
+                        <p class="paper-authors">
+                            <strong>Your Name</strong>, Co-Author 1, Co-Author 2
+                        </p>
+                        <p class="paper-venue">
+                            Conference/Journal Name, Year
+                        </p>
+                        <p class="paper-description">
+                            Brief abstract or description of what the paper is about and its key contributions.
+                        </p>
+                        <div class="paper-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-code"></i> Code</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-quote-right"></i> Cite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 2 -->
+                <div class="paper-card">
+                    <div class="paper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="paper-content">
+                        <h3>Another Research Paper Title</h3>
+                        <p class="paper-authors">
+                            Co-Author 1, <strong>Your Name</strong>, Co-Author 2
+                        </p>
+                        <p class="paper-venue">
+                            Conference/Journal Name, Year
+                        </p>
+                        <p class="paper-description">
+                            Brief abstract or description of what the paper is about and its key contributions.
+                        </p>
+                        <div class="paper-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-code"></i> Code</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-quote-right"></i> Cite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 3 -->
+                <div class="paper-card">
+                    <div class="paper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="paper-content">
+                        <h3>Third Paper: Novel Approach to [Problem]</h3>
+                        <p class="paper-authors">
+                            <strong>Your Name</strong>, Co-Author 1
+                        </p>
+                        <p class="paper-venue">
+                            Conference/Journal Name, Year
+                        </p>
+                        <p class="paper-description">
+                            Brief abstract or description of what the paper is about and its key contributions.
+                        </p>
+                        <div class="paper-links">
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-code"></i> Code</a>
+                            <a href="#" target="_blank" class="btn-small"><i class="fas fa-quote-right"></i> Cite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more papers as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">My professional journey and internships</p>
+
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Month Year - Month Year</div>
+                        <h3>Position Title</h3>
+                        <h4>Company/Organization Name</h4>
+                        <p>
+                            Description of your role, responsibilities, and achievements during this position.
+                            Highlight key projects and contributions.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Key achievement or responsibility 1</li>
+                            <li>Key achievement or responsibility 2</li>
+                            <li>Key achievement or responsibility 3</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span>Skill 1</span>
+                            <span>Skill 2</span>
+                            <span>Skill 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Month Year - Month Year</div>
+                        <h3>Internship Position</h3>
+                        <h4>Company/Organization Name</h4>
+                        <p>
+                            Description of your internship, what you learned, and what you contributed to the team.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Key achievement or responsibility 1</li>
+                            <li>Key achievement or responsibility 2</li>
+                            <li>Key achievement or responsibility 3</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span>Skill 1</span>
+                            <span>Skill 2</span>
+                            <span>Skill 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Month Year - Month Year</div>
+                        <h3>Another Position</h3>
+                        <h4>Company/Organization Name</h4>
+                        <p>
+                            Description of your role and contributions.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Key achievement or responsibility 1</li>
+                            <li>Key achievement or responsibility 2</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span>Skill 1</span>
+                            <span>Skill 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more experiences as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <p class="section-subtitle">Download my complete CV for more details</p>
+
+            <div class="cv-content">
+                <div class="cv-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="cv-text">
+                    <h3>Download CV</h3>
+                    <p>Complete curriculum vitae including education, publications, and detailed experience</p>
+                </div>
+                <a href="assets/cv.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://scholar.google.com/citations?user=yourid" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
