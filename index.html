@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio - Research, Projects, and Professional Experience">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">Enzo Orlando Taslim</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#papers" class="nav-link">Publications</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm <span class="highlight">Enzo Orlando Taslim</span></h1>
+            <p class="hero-subtitle">Data Scientist | Financial Analyst</p>
+            <p class="hero-description">
+                Passionate about machine-learning with a focus application on Investments
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/sleenz" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/enzo-orlando-taslim" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:enzoorlandotaslim@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/me.jpg" alt="Your Name" onerror="this.src='https://via.placeholder.com/400x400?text=Your+Photo'">
+                </div>
+                <div class="about-text">
+                    <h3>Welcome to my portfolio</h3>
+                    <p>
+                        I am an undergraduate student in <span class="highlight">Hong Kong Polytechnic University / 香港理工大学</span> studying <span class="highlight">Investment Science & Financial Analytics with Secondary Major in Artificial Intelligence & Data Analytics</span>. With a strong background in
+                        Data Analysis and Applied Mathematics, I focus on the application of mathematics in the financial field.
+                    </p>
+                    <p>
+                        Since 2019, I've actively invested across Indonesia's stock market, cryptocurrency markets, and the S&P500, developing firsthand understanding of different market dynamics. This practical experience fuels my academic research in stochastic risk analysis, algorithmic trading strategies, and machine learning for investment prediction.
+                    </p>
+                    <p>
+                        I'm particularly drawn to building tools and automation that make investing more accessible and data-driven, and I'm looking for opportunities to apply cutting-edge techniques to real-world financial problems.
+                    </p>
+
+                    <h4>Skills & Expertise</h4>
+                    <div class="skills">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Data Visualisation</span>
+                        <span class="skill-tag">Statistics</span>
+                        <span class="skill-tag">Dimensional Reduction techniques</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <!-- Add or modify skills as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A selection of my recent work and contributions</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/var.jpg" alt="Project 1" onerror="this.src='https://via.placeholder.com/600x400?text=Project+1'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Optimizer</h3>
+                        <p>A portfolio risk analysis tool that performs stress-testing and Monte Carlo simulations to optimize asset allocation. Built with Python and Streamlit, it provides interactive visualizations of Value-at-Risk (VaR), portfolio variance, and scenario analysis for informed investment decisions.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Quantitative Finance</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sleenz/portfoliooptimizer" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/whaletrading.jpg" alt="Project 2" onerror="this.src='https://via.placeholder.com/600x400?text=Project+2'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Cryptocurrency Whale Tracking System (ON-GOING)</h3>
+                        <p>An automated monitoring system that identifies and tracks large-volume cryptocurrency transactions ("whale movements") in real-time. Analyzes on-chain data to detect significant wallet transfers and market-moving activities, providing early signals for potential price movements and market sentiment shifts.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>API Integration</span>
+                            <span>Database Design</span>
+                            <span>Blockchain Analytics</span>
+                            <span>Trading Signals</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2" target="_blank" class="btn-small">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="papers" class="papers">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <p class="section-subtitle">Research papers and academic contributions</p>
+
+            <div class="papers-list">
+                <!-- Paper 1 -->
+                <div class="paper-card">
+                    <div class="paper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="paper-content">
+                        <h3>Demographic Dynamics and Urban Planning: Analyzing Population Growth Trends in the Four Asian Tigers</h3>
+                        <p class="paper-authors">
+                            <strong>Enzo O. Taslim</strong>, Febryano H. Detesta, Gandhi P. Perwira, Liora L. Theadora, Yong C. Xuan
+                        </p>
+                        <p class="paper-venue">
+                            The Hong Kong Polytechnic University, Department of Computing, 2024
+                        </p>
+                        <p class="paper-description">
+                            Comprehensive analysis of population growth trends in Hong Kong, Singapore, South Korea, and Taiwan using advanced statistical methods including Monte Carlo simulations, Gompertz modeling, and time series decomposition. Forecasts demographic shifts through 2053 with implications for infrastructure planning, resource allocation, and sustainable urban development in rapidly urbanizing economies.
+                        </p>
+                        <div class="paper-links">
+                            <a href="assets/paper1.pdf" target="_blank" class="btn-small"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 2 -->
+                <div class="paper-card">
+                    <div class="paper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="paper-content">
+                        <h3>The Democratic Immune System: How Democratic Dispositions Shaped Divergent Political Trajectories in Estonia and Hungary</h3></h3>
+                        <p class="paper-authors">
+                            <strong>Enzo Orlando Taslim</strong>, Craig McMayabi Kandiro, Ashley Queensa, Liora Lyn Theodora
+                        </p>
+                        <p class="paper-venue">
+                            The Hong Kong Polytechnic University, Department of Applied Mathematics, 2025
+                        </p>
+                        <p class="paper-description">
+                            Comparative analysis of democratic resilience in post-Soviet states using European Social Survey data (n=31,813) and V-Dem Democracy Index. Developed a three-pillar framework measuring civic engagement, institutional trust, and political participation to predict democratic backsliding. Successfully forecasted Hungary's authoritarian shift under Orbán while explaining Estonia's sustained democratic stability from 2004-2020.
+                        <div class="paper-links">
+                            <a href="assets/paper2.pdf" target="_blank" class="btn-small"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paper 3 -->
+                <div class="paper-card">
+                    <div class="paper-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="paper-content">
+                        <h3>Financial Analysis of PT Unilever Indonesia Tbk: Q3 2025 Performance Review</h3>
+                        <p class="paper-authors">
+                            <strong>Enzo Orlando Taslim</strong>
+                        </p>
+                        <p class="paper-venue">
+                            The Hong Kong Polytechnic University, 2025
+                        </p>
+                        <p class="paper-description">
+                            Comprehensive financial analysis of Indonesia's leading consumer goods company revealing exceptional margin expansion (+180 bps operating margin to 16.1%) despite revenue stagnation (0.7% growth). Identified material contingent liability of Rp1.38 trillion in tax disputes (41% of equity) and evaluated strategic implications of pending Rp7 trillion ice cream divestiture. Analysis covers profitability metrics, working capital efficiency, and capital allocation strategies.
+                        </p>
+                        <div class="paper-links">
+                            <a href="assets/paper3.pdf" target="_blank" class="btn-small"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more papers as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">My professional journey and internships</p>
+
+            <div class="timeline">
+                <!-- Experience 1 -->
+                 <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2025 - August 2025</div>
+                        <h3>People Analyst Intern</h3>
+                        <h4>MSIG Life | Jakarta, Indonesia</h4>
+                        <p>
+                            Conducted advanced people analytics for a major insurance company, analyzing employee attrition patterns across 500+ employees to identify critical retention risks. Developed data-driven workforce optimization strategies and predictive models that achieved Board of Directors approval and projected 7% revenue increase through improved retention and performance optimization.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li>Analyzed employee attrition data for 500+ employees across multiple departments, identifying critical problem areas with extremely high resignation rates and presenting data-driven insights to senior leadership</li>
+                            <li>Designed comprehensive workforce optimization strategy using data insights to recommend cultural transformation from Japanese management style to American meritocracy system, achieving Board of Management approval</li>
+                            <li>Served as sole technical resource in non-technical department, independently executing analytics projects and translating complex statistical findings into clear PowerPoint presentations for business stakeholders</li>
+                            <li>Projected 7% revenue increase through advanced mathematical modeling of employee retention and performance optimization strategies, providing clear ROI justification for strategic investment</li>
+                            <li>Developed predictive analytics framework using time series analysis to forecast employee departures over 5-month horizon, enabling data-driven HR budget planning and staffing decisions</li>
+                            <li>Secured CEO and Board of Directors approval for AI productivity intervention achieving 38-126% efficiency gains through company-wide 16-hour AI workshop with department-specific prompting techniques</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span>People Analytics</span>
+                            <span>Python</span>
+                            <span>Data Analysis</span>
+                            <span>Time Series Analysis</span>
+                            <span>Data Visualization</span>
+                            <span>PowerPoint</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3>Independent Investor & Trader</h3>
+                        <h4>Self-Directed Portfolio Management</h4>
+                        <p>
+                            Self-directed investor managing personal capital across Indonesian equities (IDX), cryptocurrency markets, and US equities (S&P500) since 2019. Developed from fundamental buy-and-hold investing into active price action trading strategies, building proprietary tools for market analysis, risk management, and trade execution.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li><strong>4 years investing experience</strong> across Indonesia Stock Exchange, cryptocurrency markets, and S&P500 index</li>
+                            <li><strong>2+ years active trading</strong> specializing in price action strategies and technical analysis</li>
+                            <li>Developed <strong>portfolio optimization tools</strong> including VaR modeling, Monte Carlo simulations, and Kelly Criterion position sizing</li>
+                        </ul>
+                        <div class="experience-tags">
+                            <span>Portfolio Management</span>
+                            <span>Price Action Trading</span>
+                            <span>Cryptocurrency Markets</span>
+                            <span>Risk Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more experiences as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <p class="section-subtitle">Download my complete CV for more details</p>
+
+            <div class="cv-content">
+                <div class="cv-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="cv-text">
+                    <h3>Download CV</h3>
+                    <p>Complete curriculum vitae including education, publications, and detailed experience</p>
+                </div>
+                <a href="assets/cv.pdf" download class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Enzo Orlando Taslim. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/sleenz" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/enzo-orlando-taslim" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:enzoorlandotaslim@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
